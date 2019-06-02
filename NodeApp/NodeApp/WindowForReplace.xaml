@@ -1,0 +1,19 @@
+﻿<Window x:Class="NodeApp.WindowForReplace"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NodeApp"
+        mc:Ignorable="d"
+        Title="Заменить" Height="248.964" Width="521.745">
+    <Grid>
+        <TextBox HorizontalAlignment="Left" Name="textBoxForWord" Height="23" Margin="87,37,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="153"/>
+        <TextBox HorizontalAlignment="Left" Name="textBoxForWordTwo" Height="23" Margin="87,86,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="153"/>
+        <Label Content="Что:" HorizontalAlignment="Left" Margin="25,37,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.384,-0.171"/>
+        <Label Content="Чем:" HorizontalAlignment="Left" Margin="25,83,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.384,-0.171"/>
+        <Button Content="Далее" HorizontalAlignment="Left" Margin="300,37,0,0" VerticalAlignment="Top" Width="112" Click="ButtonClickFind"/>
+        <Button Content="Заменить" HorizontalAlignment="Left" Margin="300,86,0,0" VerticalAlignment="Top" Width="112" Click="ButtonClickRepalceOnly"/>
+        <Button Content="Заменить все" HorizontalAlignment="Left" Margin="300,111,0,0" VerticalAlignment="Top" Width="112" Click="ButtonClickReplaceAll"/>
+
+    </Grid>
+</Window>
